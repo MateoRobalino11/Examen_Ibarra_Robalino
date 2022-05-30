@@ -10,5 +10,5 @@ public class I_MainActivity_R extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_imain_r);
-    }//Hola
+    }//Hola//Te saludo
 }
