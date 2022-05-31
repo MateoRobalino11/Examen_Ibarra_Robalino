@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Examen_Ibarra_Robalino</string>
+    <string name="R_Ingresar_Numero_I">Ingrese un número</string>
+    <string name="R_Ingresar_I">Ingresar</string>
+    <string name="R_Cerrar_I">Cerrar</string>
 </resources>
