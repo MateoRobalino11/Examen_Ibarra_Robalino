@@ -25,7 +25,7 @@
                 android:text="@string/R_Ingresar_Numero_I" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName2"
+                android:id="@+id/I_etValor_R"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="20sp"
@@ -36,10 +36,11 @@
                 android:text=" " />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/btnIngresar"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="20sp"
+                android:onClick="IngresarOnClick"
                 android:text="@string/R_Ingresar_I" />
         </TableRow>
 
@@ -50,20 +51,17 @@
 
             <ListView
 
-                android:layout_width="40dp"
+                android:id="@+id/ltDatos"
+                android:layout_width="17dp"
                 android:layout_height="300sp"
                 android:layout_gravity="right|center_horizontal"
-                android:layout_margin="0dp">
+                android:layout_margin="20sp">
 
             </ListView>
 
-            <Space
-                android:layout_width="0dp"
-                android:layout_height="0dp" />
-
             <Button
-                android:id="@+id/button14"
-                android:layout_width="200dp"
+                android:id="@+id/btnCerrar"
+                android:layout_width="272dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:text="@string/R_Cerrar_I" />
