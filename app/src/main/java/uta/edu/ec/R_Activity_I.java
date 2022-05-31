@@ -11,4 +11,5 @@ public class R_Activity_I extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ri);
     }
+    //hi
 }
