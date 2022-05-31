@@ -3,4 +3,10 @@
     <string name="R_Ingresar_Numero_I">Ingrese un número</string>
     <string name="R_Ingresar_I">Ingresar</string>
     <string name="R_Cerrar_I">Cerrar</string>
+    <string name="R_ordenado_Indices_I">Visualizacion del vector ordenado usando indices</string>
+    <string name="R_Vector_Indices_I">Vector de Indices</string>
+    <string name="R_Vector_Original_I">Vector Original</string>
+    <string name="R_Ordenar_I">Ordenar</string>
+    <string name="R_Mostrar_I">Mostrar</string>
+    <string name="R_Siguiente_I">Segundo Activity</string>
 </resources>

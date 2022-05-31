@@ -6,4 +6,89 @@
     android:layout_height="match_parent"
     tools:context=".R_Activity_I">
 
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:layout_width="250sp"
+                android:layout_height="wrap_content"
+                android:text="@string/R_ordenado_Indices_I" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:layout_width="250sp"
+                android:layout_height="wrap_content"
+                android:text="@string/R_Vector_Indices_I" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:layout_width="250sp"
+                android:layout_height="wrap_content"
+                android:text="@string/R_Vector_Original_I" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ListView
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+
+            <ListView
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+
+            <ListView
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="@string/R_Mostrar_I" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="@string/R_Ordenar_I" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="@string/R_Siguiente_I" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        </TableRow>
+    </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
