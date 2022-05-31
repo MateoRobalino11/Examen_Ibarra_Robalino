@@ -41,7 +41,7 @@ public class I_MainActivity_R extends AppCompatActivity {
 
         }*/
     }
-
+//hola
 
     public void I_AdaptarDatas_R(String[] I_valores_R){
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,I_valores_R);
