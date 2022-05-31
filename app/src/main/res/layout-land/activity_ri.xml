@@ -17,23 +17,23 @@
             <TextView
                 android:id="@+id/textView"
                 android:layout_gravity="center"
-                android:textSize="15sp"
-                android:layout_width="200sp"
+                android:textSize="20sp"
+                android:layout_width="235sp"
                 android:layout_height="wrap_content"
                 android:text="@string/R_ordenado_Indices_I" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_gravity="center"
-                android:textSize="15sp"
-                android:layout_width="200sp"
+                android:textSize="20sp"
+                android:layout_width="250sp"
                 android:layout_height="wrap_content"
                 android:text="@string/R_Vector_Indices_I" />
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_gravity="center"
-                android:textSize="15sp"
+                android:textSize="20sp"
                 android:layout_width="250sp"
                 android:layout_height="wrap_content"
                 android:text="@string/R_Vector_Original_I" />
@@ -46,17 +46,17 @@
             <ListView
                 android:layout_margin="10dp"
                 android:layout_width="match_parent"
-                android:layout_height="170dp" />
+                android:layout_height="150sp" />
 
             <ListView
                 android:layout_margin="10dp"
                 android:layout_width="match_parent"
-                android:layout_height="170dp" />
+                android:layout_height="150sp" />
 
             <ListView
                 android:layout_margin="10dp"
                 android:layout_width="match_parent"
-                android:layout_height="170dp" />
+                android:layout_height="150sp" />
         </TableRow>
 
         <TableRow
